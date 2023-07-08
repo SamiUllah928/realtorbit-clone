@@ -1,0 +1,465 @@
+/* header */
+*{
+    padding: 0;
+    margin: 0;   
+}
+.header{
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 100px;
+    align-items: center;
+    position: fixed;
+    z-index: 100;
+    width: 100%;
+    background-color: white;
+}
+.logo{
+    display: grid;
+    grid-template-columns: 30% 15%;
+    padding: 0px 70px;
+    position: relative;
+ 
+  
+}
+#green{
+    color: #15b946;
+}
+.logo a{
+    font-weight: 600;
+    font-size: 32px;
+    color: black;
+    text-decoration: none;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.logo a:hover{
+    text-decoration: underline;
+}
+.logo a::after{
+    content: "Bit";
+    color: #15b946;
+
+}
+
+.contant ul{
+    cursor: pointer;
+padding-left: 60px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.contant ul li{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    font-size: 16px; 
+    font-weight: 500;
+   
+}
+.contant ul li:hover{
+    color: #15b946;
+}
+
+#search i{
+padding: 10px;
+    color: white;
+    font-size: 20px;
+    background-color: #15b946;
+}
+/* header */
+
+
+/* video */
+body{
+    height: 100%;
+}
+
+#video-container {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+
+#video-background {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+.video{
+    position: relative;
+}
+.text{
+    padding: 0px 35px;
+
+    position: absolute;
+    top: 41%;
+    color: white;
+}
+.text h1{
+    margin-top: 5px;
+    font-size: 40px;
+}
+.text p{
+    font-size: 18px;
+    line-height: 24px;
+}
+.text button{
+    font-family: Arial, Helvetica, sans-serif;
+
+    width: 180px;
+    height: 60px;
+    margin-top: 10px;
+    border-radius: 5px;
+    color: white;
+    font-size: 25px;
+    background-color: #15b946;
+    padding: 10px;
+    border: none;
+}
+.text button:hover{
+    background-color: #06cd41;
+}
+/* video */
+
+
+/* values */
+#whole{
+   margin: 20px 60px;
+   padding: 7% 12%;
+    background-color: whitesmoke;
+}
+.desired{
+    text-align: center;
+    font-size: 15px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.desired h1{
+    margin-bottom: 15px;
+}
+.charges{
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+}
+
+#RENT {
+    border: none;
+    height: 34px;
+    width: 170px;
+    border-radius: 3px;
+    text-transform: uppercase;
+}
+#zipcode input{
+    border: none;
+    height: 34px;
+    width: 170px;
+text-align: center;
+    border-radius: 3px;
+}
+#min-price{
+    text-align: center;
+    border: none;
+    height: 34px;
+    width: 170px;
+    border-radius: 3px;
+}
+#max-price{
+    text-align: center;
+    border: none;
+    height: 34px;
+    width: 170px;
+    border-radius: 3px;
+
+}
+
+.search{
+    margin-left: 30px;
+}
+.search button{
+background-color: #15b946;
+color: white;
+height: 34px;
+width: 70px;
+border: none;
+padding: 5px;
+border-radius: 5px;
+cursor: pointer;
+}
+.search button:hover{
+    background-color: #14d54e;
+}
+/* values */
+
+
+/* welcome */
+#real{
+    text-align: center;
+    font-size: 25px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 80px;
+}
+#para{
+    font-size: 16px;
+    margin-top: 10px;
+    text-align: left;
+    padding: 0 30px;
+    line-height: 22px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+.read{
+    text-align: center;
+    margin-top: 10px;
+    background-color:#007bff;
+    color: white;
+    width: 100px;
+    height: 40px;
+   margin-left: 30px;
+   border: none;
+   border-radius: 3px;
+   cursor: pointer;
+}
+.read:hover{
+background-color: #401bd5;
+}
+
+/* welcome */
+
+
+/* properties */
+#properties{
+    margin-top: 150px;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    text-transform: capitalize;
+
+}
+/* properties */
+
+
+/* source */
+.source{
+   margin-top: 40px;
+text-align: center;
+position: relative;
+}
+.source img{
+  border-radius: 10px;
+    width: 350px;
+    height: 50vh;
+}
+.avail {
+    position: absolute;
+    right: 49%;
+    transform: translateX(50%);
+
+    bottom: -50%;
+    background-color:#ffffff;
+    width: 20%;
+    margin: 0px 15px;
+    padding: 15px 20px;
+    border-radius: 10px;
+    box-shadow: 0 0 10px 1px grey;
+    height: 30vh;
+}
+.con{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    background-color: #e1e1e1;
+    padding: 3px;
+    border-radius: 4px;
+}
+#con{
+    height: 10px;
+    width: 10px;
+    margin-right: 5px;
+    background-color: #14d54e;
+    border-radius: 50%;
+}
+.con span{
+    text-transform: uppercase;
+    font-size: 13px;
+    font-weight: 500;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.main{
+    display: grid;
+    grid-template-columns: 35% auto;
+}
+.avail ul li{
+    list-style-position: inside;
+    width: 100%;
+    text-align: left;
+    padding: 5px;
+    border-radius: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+
+
+
+.as-si{
+    margin-top: 15px;
+    display: flex;
+    justify-content: space-between;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+#McCullum{
+   text-align: left;
+   font-family: Arial, Helvetica, sans-serif;
+   margin-top: 28px;
+   color: #474747;
+
+}
+#block{
+text-align: left;
+font-family: Arial, Helvetica, sans-serif;
+margin-top: 20px;
+
+}
+.dollar{
+    color: #15b946;
+    font-weight: 600;
+}
+.dollar1{
+    background-color: #b2caab;
+    color: white;
+    border-radius: 3px;
+    padding: 5px;
+    font-size: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+
+}
+/* source */
+
+/* offer */
+.offer{
+margin-top: 25%;
+text-align: center;
+text-transform: capitalize;
+
+}
+.offer h1{
+    font-weight: 600;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+/* offer */
+
+
+/* paragraph */
+.high{
+    margin-top: 50px;
+    display: grid;
+    grid-template-columns: 27% 27% 27%;
+    justify-content:space-around;
+    padding: 0px 30px;
+
+}
+.edu{
+    box-shadow: 0px 0px 0px 1px rgb(176, 172, 172);
+padding: 15px 10px 50px 10px;
+border-radius: 3px;
+}
+.edu h3{
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.edu p{
+    color: #212529;
+    line-height: 24px;
+margin-top: 10px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+/* paragraph */
+
+
+/* footer55 */
+.footer55{
+    background-color:whitesmoke;
+    margin-top: 7%;
+    display: grid;
+    grid-template-columns: 18% 18% 18% 18% 18%;
+    justify-content: center;
+    gap: 20px;
+    padding: 30px;
+    border-bottom: 1px solid black;
+
+}
+
+.foot1 a{
+    font-size: 22px;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+.foot1 a::after{
+    content: "Bit" ;
+    color: #15b946;
+}
+.foot1 a:hover{
+    color: #15b946;
+}
+.foot2 a{
+    line-height: 24px;
+text-transform: capitalize;
+    display: block;
+justify-content: center;
+    list-style: none;
+    text-decoration: none;
+    color: black;
+font-family: Arial, Helvetica, sans-serif;
+}
+.foot2 a:hover{
+    color: #15b946;
+
+}
+.follow{
+    margin-left: 10px;
+justify-content: center;
+    font-size: 23px;
+font-family: Arial, Helvetica, sans-serif;
+font-weight: 600;
+}
+.links {
+    margin-top: 12px;
+    padding: 10px;
+display: grid;
+grid-template-columns: 15% 15% 15% 15% 15%;
+gap: 10px;
+
+}
+.anchor i{
+    font-size: 20px;
+justify-content: space-around;
+
+}
+.anchor i:hover{
+    color: #15b946;
+}
+
+
+/* footer55 */
+
+
+/* copy */
+.copy{
+    text-align: center;
+    background-color: whitesmoke;
+    padding: 10px;
+    font-size: 16px;
+font-family: Arial, Helvetica, sans-serif;
+
+}
+/* copy */
+
+
+
